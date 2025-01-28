@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Lato", "Sour Gummy", sans-serif;
+}
+
+#logo_link{
+    width: 100px;
+    padding-top: 5px; 
+    align-self: center;
+}
+
+.logo{
+    width: 80px;
+}
+
+.home-title{
+    font-size: 200px;
+}
+
+.quote{
+    width: 200px;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#background{
+    height: 650px;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lato", "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 35px;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: white;
+    color: #3590f3;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #53dd6e;
+    font-family: "Lato", "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.footer{
+    color: white;
+}
+
+h2{
+    margin: 0;
+    font-size: 12px;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #53dd6e;
+}
+
+nav a:hover{
+    background-color: #3590f3;
+    color: white;
+}
+
+.msg{
+    background-color: #2d936c;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg p{
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #48beff;
+    color: #114B5F;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Home page*/
+
+.quote{
+    margin: 50px 0;
+} 
+
+
+.intro{
+    margin: 50px 0;
+}
+
+.questionone{
+    margin: 50px 0;
+} 
+
+.answerone{
+    margin: 50px 0;
+}
+
+.questiontwo{
+    margin: 50px 0;
+}
+
+.answertwo{
+    margin: 50px 0;
+}
+
+.questionthree{
+    margin: 50px 0;
+} 
+
+.answerthree{
+    margin: 50px 0;
+}
+
+.home-grid{
+    padding: 25px;
+}
+
+/*About Gina */
+
+.banda{
+    width: 200px;
+    float: left;
+    padding: 50px;
+}
+
+.about_me{
+    padding: 50px;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.transformation{
+    width: 200px;
+    float: right;
+    padding: 50px;
+}
+
+/* Optavia */
+
+.optaviasite{
+    margin: 50px;
+}
+
+.optavia_logo{
+    float: left;
+    width: 200px;
+    padding: 50px;
+}
+
+.topic{
+    text-align: center;
+    font-family: "Lato", "Sour Gummy", sans-serif;
+    color: #3590f3;
+    font-weight: 400;
+    margin: 50px;
+}
+
+.points{
+    padding-left: 50px;
+    padding-right: 50px;
+}
